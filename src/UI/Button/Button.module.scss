@@ -1,0 +1,15 @@
+#button {
+    padding: 12px 20px;
+
+    border-radius: var(--border-radius-primary);
+
+    transition: var(--transition-duration);
+
+    &[theme="dark"] {
+        background-color: var(--bg-color-dark-secondary);
+    }
+
+    &[theme="dark"]:hover {
+        background-color: #333333;
+    }
+}

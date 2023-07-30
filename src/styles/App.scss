@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --bg-color-light-primary: #fff;
+    --bg-color-dark-primary: #222222;
+    --bg-color-dark-secondary: #292929;
+    --bg-color-dark-hover: #3a3a3a;
+
+    --border-radius-primary: 8px;
+
+    --border-color: #494949;
+
+    --transition-duration: 0.3s;
+}
+
+* {
+    font-family: 'Open sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-x: hidden;
+}

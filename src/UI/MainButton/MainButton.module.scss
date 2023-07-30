@@ -1,0 +1,31 @@
+#button {
+    flex-grow: 1;
+
+    padding: 4px 0;
+
+    text-align: center;
+
+    border-radius: var(--border-radius-primary);
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+
+    &[theme="dark"] {
+        background-color: var(--bg-color-dark-secondary);
+    }
+}
+
+#buttonTop {
+    width: 100%;
+
+    transition: var(--transition-duration);
+
+    &[empty="false"]:hover {
+        background-color: var(--bg-color-dark-hover);
+    }
+
+    &[empty="true"] {
+        cursor: auto;
+    }
+}

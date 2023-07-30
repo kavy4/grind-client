@@ -1,0 +1,23 @@
+#tabBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &[theme="dark"] {
+        background-color: #333333;
+    }
+}
+
+#tabBarElement {
+    padding: 16px 0;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}

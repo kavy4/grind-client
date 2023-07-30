@@ -1,0 +1,9 @@
+#section {
+    padding: 16px;
+
+    border-radius: var(--border-radius-primary);
+
+    &[theme="dark"] {
+        background-color: var(--bg-color-dark-secondary);
+    }
+}

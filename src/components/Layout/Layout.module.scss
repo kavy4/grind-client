@@ -1,0 +1,14 @@
+#layout {
+    /* width: 100vw; */
+    height: 100vh;
+
+    &[theme="dark"], body {
+        background-color: var(--bg-color-dark-primary);
+        color: white;
+    }
+
+    &[theme="light"], body {
+        background-color: var(--bg-color-light-primary);
+        color: black;
+    }
+}

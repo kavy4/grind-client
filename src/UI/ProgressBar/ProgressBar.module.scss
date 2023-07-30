@@ -1,0 +1,13 @@
+#progressBarContainer {
+    background-color: #868686;
+
+    border-radius: var(--border-radius-primary);
+}
+
+#progressBar {
+    height: 4px;
+
+    border-radius: var(--border-radius-primary);
+    
+    background-color: #71aaeb;
+}
