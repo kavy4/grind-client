@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/grind-client/static/css/main.2254e37a.css",
+    "main.js": "/grind-client/static/js/main.1ce1cf46.js",
+    "index.html": "/grind-client/index.html",
+    "main.2254e37a.css.map": "/grind-client/static/css/main.2254e37a.css.map",
+    "main.1ce1cf46.js.map": "/grind-client/static/js/main.1ce1cf46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2254e37a.css",
+    "static/js/main.1ce1cf46.js"
+  ]
+}
